@@ -1,0 +1,87 @@
+    html {
+    overflow: hidden;
+    height: 100%;
+    }
+
+    body {
+    height: 100%;
+    overflow: auto;
+    font-family: "Gill Sans", Monaco, monospace;
+    font-size: 17px;
+    background-color: rgb(255, 240, 245);
+    }
+
+    a:link, a:visited {
+    text-decoration: none;
+    }
+
+    a:hover, a:active {
+    text-decoration: underline;
+    }
+
+    .image {
+    width:200px;
+    float:left;
+    margin-right:20px;
+    }
+
+    .project_item {
+    overflow:hidden;
+    max-width:1000px;
+    padding-bottom: 40px;
+    }
+
+    .project_item p {
+    margin-left:220px;
+    }
+
+    h1 {
+    font-size: 42px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom:0.5em;
+    }
+
+    h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    }
+
+    h3 {
+    position:relative;
+    margin-left: 220px;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    font-weight: 500;
+    }
+
+    p {
+    margin-top: 0px;
+    overflow:hidden;
+    font-size:1.0rem;
+    }
+
+    ul {
+    margin-top: 0px;
+    }
+
+    li {
+    margin-bottom: 5px;
+    }
+
+	.project_table{
+	table-layout: fixed;
+	width: 850px;
+	border: 1px solid black;
+	}
+
+	.project_table th {
+	border: 1px solid black;
+	}
+
+	.project_table td {
+	border: 1px solid black;
+	padding: 15px;
+	}
+
+
