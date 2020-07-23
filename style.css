@@ -7,8 +7,17 @@
     height: 100%;
     overflow: auto;
     font-family: "Gill Sans", Monaco, monospace;
-    font-size: 17px;
+    font-size: 18px;
     background-color: rgb(255, 240, 245);
+    }
+
+    @media screen and (min-width: 50rem){
+        .outer-box-frame {
+            border: 1rem solid #C1A2CC;
+            margin: 1rem auto;
+            padding: 5rem;
+            max-width: 60rem;
+        }
     }
 
     a:link, a:visited {
@@ -63,6 +72,7 @@
 
     h3 {
     text-align:center;
+    font-size: 1.4rem;
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 1em;
@@ -72,7 +82,7 @@
     p {
     margin-top: 0px;
     overflow:hidden;
-    font-size:1.0rem;
+    font-size:18px;
     }
 
     ul {
@@ -80,12 +90,12 @@
     }
 
     li {
-    margin-bottom: 5px;
+    margin-bottom: px;
     }
 
 	.project_table{
 	table-layout: fixed;
-	width: 900px;
+	width: 950px;
 	border: 1px solid black;
 	}
 
