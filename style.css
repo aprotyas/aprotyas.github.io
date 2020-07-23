@@ -25,14 +25,28 @@
     margin-right:20px;
     }
 
+    .image-proj {
+    display:block;
+    width:415px;
+    margin-right:auto;
+    margin-left:auto;
+    }
+
+    .image-nn {
+    display:block;
+    width:320px;
+    margin-right:auto;
+    margin-left:auto;
+    }
+
     .project_item {
     overflow:hidden;
     max-width:1000px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     }
 
     .project_item p {
-    margin-left:220px;
+    
     }
 
     h1 {
@@ -48,8 +62,8 @@
     }
 
     h3 {
-    position:relative;
-    margin-left: 220px;
+    text-align:center;
+    margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 1em;
     font-weight: 500;
@@ -71,7 +85,7 @@
 
 	.project_table{
 	table-layout: fixed;
-	width: 850px;
+	width: 900px;
 	border: 1px solid black;
 	}
 
