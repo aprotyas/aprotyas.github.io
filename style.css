@@ -55,10 +55,6 @@
     padding-bottom: 10px;
     }
 
-    .project_item p {
-    
-    }
-
     h1 {
     font-size: 42px;
     text-align: center;
@@ -112,51 +108,53 @@
 
   #navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #af47af;
+    position: sticky;
+    top: 0;
   }
   
   #navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
   
   #navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #f6e0f7;
+    color: #903590;
   }
   
   #navbar a.active {
-    background-color: #4CAF50;
+    background-color: #4a1255;
     color: white;
   }
 
-  #back2Top {
-    width: 40px;
-    line-height: 40px;
-    overflow: hidden;
-    z-index: 999;
-    display: none;
-    cursor: pointer;
-    -moz-transform: rotate(270deg);
-    -webkit-transform: rotate(270deg);
-    -o-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
+  #navbar a.active:hover {
+    background-color: #f6e0f7;
+    color: #903590;
+  }
+
+  /*Floating Back-To-Top Button*/
+  #myBtn {
     position: fixed;
-    bottom: 50px;
-    right: 0;
-    background-color: #DDD;
-    color: #555;
-    text-align: center;
-    font-size: 30px;
-    text-decoration: none;
+    bottom: 10px;
+    float: right;
+    right: 12.5%;
+    left: 83.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 13px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+
 }
-#back2Top:hover {
-    background-color: #DDF;
-    color: #000;
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
 }
