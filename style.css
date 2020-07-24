@@ -127,11 +127,6 @@
     background-color: #f6e0f7;
     color: #903590;
   }
-  
-  #navbar a.active {
-    background-color: #4a1255;
-    color: white;
-  }
 
   #navbar a.active:hover {
     background-color: #f6e0f7;
@@ -145,7 +140,7 @@
     float: right;
     right: 12.5%;
     left: 83.25%;
-    max-width: 30px;
+    max-width: 70px;
     width: 100%;
     font-size: 13px;
     border-color: rgba(85, 85, 85, 0.2);

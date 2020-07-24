@@ -7,9 +7,69 @@
   <title>Encryption Device</title>
 </head>
 <body>
+  <div class="outer-box-frame">
+    <div id="navbar">
+      <div style="justify-content:space-between;display:flex;padding: 0px 60px 0px 60px">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#about">About</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#other">Other</a>
+      </div>
+    </div>
+
   <h1>Encryption Device</h1>
-  <div style="width:1100px; margin:auto; margin-bottom:100px">
-    <div style="min-height:1100px">
-      <img src="../resources/encryption-device/encryption-device.png" width=1100px>
+
+  <p>This project was done in collaboration with <a href="https://www.linkedin.com/in/mahinmghani/">Mahin Muhtasim Ghani</a>, as a part of
+    the coursework for ECE112: Introduction to Logic Design, at the University of Rochester.
+    The final circuit is shown in <a href="#fig1">Figure 1</a>, with more details following
+    the figure.
+  </p>
+
+    <div style="width:950px; margin:auto; margin-bottom:20px">
+      <figure>
+        <div id="fig1"></div>
+        <img src="../resources/encryption-device/encryption-device.png" width=950px>
+        <figcaption>Fig.1 - Block diagram representing encryption device</figcaption>
+      </figure>
+    </div>
+  <h2>Objective</h2>
+  <p>The device was made such that the output of the incoming bitstream is complemented
+    once a set	of predetermined bits (110) is detected. This would be reset once a
+    different set of predetermined bits (100) is detected, i.e. output of the encryption
+    devices matches the inputs. The design was implemented in a <a href="http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=921">DE0-CV Board.</a>
+  </p>
+
+  <h2>Approach</h2>
+  <p>Initially, a state graph and transition table was created for the device in hand.
+    The appropriate state maps and Karnaugh maps (as shown in <a href="#fig2">Figure 2</a>) were produced from the
+    table, after which equations for the flip-flop inputs (D<sub>a</sub>, D<sub>b</sub>, D<sub>c</sub>) and the output
+    (Z) were derived. These equations were used to produce the appropriate logical
+    connections in the Quartus Prime application, which was then compiled and programmed
+    onto the DE0‐CV board, where the operation of the encryption device was verified. </p>
+
+    <p>For the purposes of this lab, a push button (KEY[0]) was used to represent a clock
+      input, a switch (SW[0]) was used to represent a bit input, and the logical output
+      was mapped to LEDR[0]. </p>
+
+    <div style="width:950px; margin:auto; margin-bottom:20px">
+      <figure>
+        <div id="fig2"></div>
+        <img src="../resources/encryption-device/logic.jpg" height=500px class="center">
+        <figcaption>Fig.2 - Logical expressions derived for encryption device</figcaption>
+      </figure>
+    </div>
+
+    <p>A sample input-output stream is shown in <a href="#fig3">Figure 3</a></p>
+
+    <div style="width:950px; margin:auto; margin-bottom:20px">
+      <figure>
+        <div id="fig3"></div>
+        <img src="../resources/encryption-device/in-out.jpg" class="center">
+        <figcaption>Fig.3 - Successful encryption input-output bitstream</figcaption>
+      </figure>
+    </div>
+
+  <button id="myBtn"><a href="#top" style="color: white">Back to top</a></button>
+
 </body>
 </html>
