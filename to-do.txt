@@ -1,1 +1,5 @@
 top navbar
+individual projects page
+"projects" page
+scroll to top button
+
