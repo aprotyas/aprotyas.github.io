@@ -1,0 +1,117 @@
+html {
+    overflow: hidden;
+    height: 100%;
+    }
+
+    body {
+    height: 100%;
+    overflow: auto;
+    font-family: "Gill Sans", Monaco, monospace;
+    font-size: 18px;
+    background-color: rgb(255, 240, 245);
+    }
+
+    @media screen and (min-width: 50rem){
+        .outer-box-frame {
+            border: 1rem solid #C1A2CC;
+            margin: 1rem auto;
+            padding: 4.2rem;
+            padding-top: 2.5rem;
+            max-width: 60rem;
+        }
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+    figure {
+        padding: 4px;
+        margin: auto;
+      }
+      
+      figcaption {
+        color: black;
+        font-style: normal;
+        padding: 12px;
+        text-align: center;
+      }
+
+    a:link, a:visited {
+    text-decoration: none;
+    }
+
+    a:hover, a:active {
+    text-decoration: underline;
+    }
+
+    .image {
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block
+    }
+
+
+    h1 {
+    font-size: 42px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom:0.5em;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        }
+
+  #navbar {
+    overflow: hidden;
+    background-color: #af47af;
+    position: sticky;
+    top: 0;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #navbar a:hover {
+    background-color: #f6e0f7;
+    color: #903590;
+  }
+
+  #navbar a.active:hover {
+    background-color: #f6e0f7;
+    color: #903590;
+  }
+
+  /*Floating Back-To-Top Button*/
+  #myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 12.5%;
+    left: 83.25%;
+    max-width: 70px;
+    width: 100%;
+    font-size: 13px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
