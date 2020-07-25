@@ -9,15 +9,18 @@
     font-family: "Gill Sans", Monaco, monospace;
     font-size: 18px;
     background-color: rgb(255, 240, 245);
+    text-align:justify;
     }
 
     @media screen and (min-width: 50rem){
         .outer-box-frame {
             border: 1rem solid #C1A2CC;
             margin: 1rem auto;
-            padding: 4.2rem;
+            padding-right: 2.5rem;
+            padding-left: 2.5rem;
             padding-top: 2.5rem;
-            max-width: 60rem;
+            padding-bottom: 2.5rem;
+            max-width: 65rem;
         }
     }
 
@@ -32,27 +35,45 @@
     .image {
     width:200px;
     float:left;
-    margin-right:20px;
+    margin-right:1000px;
+    margin-left:1000px;
     }
 
     .image-proj {
-    display:block;
     width:415px;
-    margin-right:auto;
-    margin-left:auto;
+    margin: auto;
+    vertical-align: text-bottom;
+    display: block;
+    }
+
+    .image-enc {
+    width:415px;
+    height:250px;
+    margin: auto;
+    vertical-align: text-bottom;
+    display: block;
     }
 
     .image-nn {
-    display:block;
     width:320px;
-    margin-right:auto;
-    margin-left:auto;
+    margin: auto;
+    vertical-align: text-bottom;
+    display:block;
     }
 
     .project_item {
-    overflow:hidden;
-    max-width:1000px;
-    padding-bottom: 10px;
+    }
+
+    .project_item img{
+
+    }
+
+
+    .bottom-align {
+
+        vertical-align: text-bottom;
+        display: block;
+
     }
 
     h1 {
@@ -76,6 +97,14 @@
     font-weight: 500;
     }
 
+    h4 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+    margin-top: 1rem;
+    }
+
+
     p {
     margin-top: 0px;
     overflow:hidden;
@@ -92,8 +121,13 @@
 
 	.project_table{
 	table-layout: fixed;
+    display: block;
+    margin-left: 100px;
+    margin-right: auto;
 	width: 950px;
+    text-align: justify;
 	border: 1px solid black;
+
 	}
 
 	.project_table th {
@@ -103,8 +137,12 @@
 	.project_table td {
 	border: 1px solid black;
 	padding: 15px;
+    vertical-align: top;
 	}
 
+    .project_table > *{
+        vertical-align: bottom;
+    }
 
   #navbar {
     overflow: hidden;

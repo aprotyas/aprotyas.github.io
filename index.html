@@ -20,10 +20,10 @@
     </div>
   </div>
 
-  <div style="width:920px; margin:auto; margin-bottom:20px">
+  <div style="width:950px; margin:auto; margin-bottom:20px">
     <div style="min-height:275px">
-      <img src="images/abrar.jpg" width=220 style="border-radius:25px 10px;float:left;">
-      <div style="padding-left:265px;padding-bottom:100px">
+      	<img src="images/abrar.jpg" width=220 style="border-radius:25px 10px;float:left;">
+      <div style="padding-left:250px;padding-bottom:80px">
     <div id="about">
 	<h1>Abrar Rahman Protyasha</h1>
 	<p>I am a senior undergraduate student studying Electrical and Computer Engineering at the <a href="https://rochester.edu">University of Rochester</a>.
@@ -37,17 +37,19 @@
       </div>
     </div>
 <div id="projects">
-<h2>Projects</h2>
-<table class="project_table">
+<h4>Projects</h4>
+<table class="project_table" style="margin-left:auto;margin-right:auto;">
 <tr>
   <td>
   	<div class="project_item">
-	<h3><a href="projects/amr.html">Autonomous mobile robot software architecture</a></h3>
+	<h3><a href="projects/amr.html">Autonomous mobile robot software stack</a></h3>
 	<p>ROS packages (C++) for perception, occupancy grid mapping, path planning, localization,
 	   and path following controls to explore a partially known world using a TurtleBot2, in
 	   addition to a simulator and an OpenGL GUI for testing purposes.
 	</p>
+	<div class="bottom-align">
 	<a href="projects/amr.html"><img alt="Robotics software stack" src="resources/amr/amr-demo.png" class="image-proj"></a>
+	</div>
 	</div>
   </td>
   <td>
@@ -56,7 +58,10 @@
 	<p>A wirelessly controlled vehicle with an on-board Raspberry Pi and PIC32 MCU, driving two
 	   DC gear-motors through a dual motor driver carrier using a PID feedback controller.
 	</p>
-	<img src="resources/amr/amr-demo.png" class="image-proj">
+	<br>
+	<div class="bottom-align">
+	<a href="projects/remote-vehicle.html"><img alt="Remote vehicle side profile" src="resources/remote-vehicle/remote-vehicle.png" class="image-proj"></a>
+	</div>
 	</div>
   </td>
 </tr>
@@ -67,17 +72,20 @@
 	<p>Implemented a neural network architecture for binary classification on the HIGGS dataset.
 		The feedforward, backpropagation, and SGD mechanisms were implemented using NumPy.
 	</p>
-	<img src="resources/neural-network/neural-network.png" class="image-nn">
+	<div class="bottom-align">
+	<a href="projects/nn.html"><img alt="Neural network concept" src="resources/neural-network/neural-network.png" class="image-nn"></a>
+	</div>
 	</div>
   </td>
   <td>
   	<div class="project_item">
 	<h3><a href="projects/headphone.html">Two-stage, two-channel headphone amplifier</a></h3>
-	<p>ROS packages (C++) for perception, occupancy grid mapping, path planning, localization,
-	   and path following controls to explore a partially known world using a TurtleBot2, in
-	   addition to a simulator and OpenGL GUI for testing purposes.
+	<p>A dual stage headphone amplifier with local feedback techniques, 3-dB full-power BW of 20Hz-15kHz (min), and THD+N
+	< 0.2% with 100mW output on nominal load at 1kHz. Amplifier only simulated using HSPICE due to COVID-19 lab restrictions.
 	</p>
-	<img src="resources/amr/amr-demo.png" class="image-proj">
+	<div class="bottom-align">
+	<a href="projects/headphone.html"><img alt="Headphone amplifier circuit schematic" src="resources/headphone/headphone.png" class="image-proj"></a>
+	</div>
 	</div>
   </td>
 </tr>
@@ -87,17 +95,24 @@
 	<h3><a href="projects/encrypt.html">Encryption device</a></h3>
 	<p>A bitstream encrypting state-machine programmed on a DE0-CV board.
 	</p>
-	<a href="projects/encrypt.html"><img alt="Encryption device schematic" src="resources/encryption-device/encryption-device.png" class="image-proj"></a>
+	<br><br>
+	<div class="bottom-align">
+	<a href="projects/encrypt.html"><img alt="Encryption device schematic" src="resources/encryption-device/encryption-device.png" class="image-enc"></a>
+	</div>
 	</div>
   </td>
   <td>
   	<div class="project_item">
 	<h3><a href="projects/reversi.html">Reversi</a></h3>
-	<p>ROS packages (C++) for perception, occupancy grid mapping, path planning, localization,
-	   and path following controls to explore a partially known world using a TurtleBot2, in
-	   addition to a simulator and OpenGL GUI for testing purposes.
+	<p>A 2-player CLI implementation of the popular board game Reversi - written in
+		procedural C++98.
+
 	</p>
-	<img src="resources/amr/amr-demo.png" class="image-proj">
+	<br>
+	<div class="bottom-align">
+	<a href="projects/reversi.html"><img alt="Reversi board state" src="resources/reversi/reversi.png" class="image-proj"></a>
+	</div>
+	</div>
 	</div>
   </td>
 </tr>
