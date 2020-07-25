@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://aprotyas.github.io/sitemap.xml
