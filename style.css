@@ -12,7 +12,7 @@
     text-align:justify;
     }
 
-    @media screen and (min-width: 50rem){
+    @media screen and (min-width: 40rem){
         .outer-box-frame {
             border: 1rem solid #C1A2CC;
             margin: 1rem auto;
@@ -20,7 +20,7 @@
             padding-left: 2.5rem;
             padding-top: 2.5rem;
             padding-bottom: 2.5rem;
-            max-width: 72rem;
+            max-width: 52rem;
         }
     }
 
@@ -40,14 +40,14 @@
     }
 
     .image-proj {
-    width:415px;
+    width:300px;
     margin: auto;
     vertical-align: text-bottom;
     display: block;
     }
 
     .image-enc {
-    width:415px;
+    width:300px;
     height:250px;
     margin: auto;
     vertical-align: text-bottom;
@@ -55,7 +55,7 @@
     }
 
     .image-nn {
-    width:320px;
+    width:250px;
     margin: auto;
     vertical-align: text-bottom;
     display:block;
@@ -124,7 +124,7 @@
     display: block;
     margin-left: 100px;
     margin-right: auto;
-	width: 1150px;
+	width: 850px;
     text-align: justify;
 	border: 1px solid black;
 
