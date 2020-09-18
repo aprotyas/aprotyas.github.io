@@ -8,13 +8,13 @@
     overflow: auto;
     font-family: "Gill Sans", Monaco, monospace;
     font-size: 18px;
-    background-color: rgb(255, 240, 245);
+    background-color: rgb(255, 255, 255);
     text-align:justify;
     }
 
     @media screen and (min-width: 40rem){
         .outer-box-frame {
-            border: 1rem solid #C1A2CC;
+            border: 1rem solid #FFFFFF;
             margin: 1rem auto;
             padding-right: 2.5rem;
             padding-left: 2.5rem;
@@ -146,7 +146,7 @@
 
   #navbar {
     overflow: hidden;
-    background-color: #af47af;
+    background-color: #ffffff;
     position: sticky;
     top: 0;
   }
@@ -154,11 +154,12 @@
   #navbar a {
     float: left;
     display: block;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 9px 16px 9px 16px;
+    margin-bottom: 22px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 23px;
   }
   
   #navbar a:hover {
