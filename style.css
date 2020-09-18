@@ -20,7 +20,7 @@
             padding-left: 2.5rem;
             padding-top: 2.5rem;
             padding-bottom: 2.5rem;
-            max-width: 52rem;
+            max-width: 54rem;
         }
     }
 
@@ -147,7 +147,6 @@
   #navbar {
     overflow: hidden;
     background-color: #ffffff;
-    position: sticky;
     top: 0;
   }
   
@@ -156,19 +155,18 @@
     display: block;
     color: #000000;
     text-align: center;
-    padding: 9px 16px 9px 16px;
+    padding: 9px 16px; 
+    width: 850px;
     margin-bottom: 22px;
     text-decoration: none;
     font-size: 23px;
   }
   
   #navbar a:hover {
-    background-color: #f6e0f7;
     color: #903590;
   }
 
   #navbar a.active:hover {
-    background-color: #f6e0f7;
     color: #903590;
   }
 
