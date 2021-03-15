@@ -1,135 +1,125 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-  <meta name="google-site-verification" content="25yuwgmQCWTSP5WHt2C2hJyumIDRzxpPWb1iYWuVDaw" />
-  <meta charset="UTF-8">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-  <title>Abrar Rahman Protyasha</title>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Abrar Rahman Protyasha &middot; Ordinary cat person
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Droid+Serif" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/public/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/public/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/public/manifest.json">
+  <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L01M07WTTP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-L01M07WTTP');
+  </script>
 </head>
-<body>
 
-<div class="outer-box-frame">
-  <div id="top"></div>
-  <div id="navbar">
-    <div style="justify-content:space-between;display:flex;padding: 0px 60px 0px 60px">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#other">Other</a>
-    </div>
-  </div>
 
-  <div style="width:950px; margin:auto; margin-bottom:20px">
-    <div style="min-height:275px">
-      	<img src="images/abrar.jpg" width=220 style="border-radius:25px 10px;float:left;">
-      <div style="padding-left:250px;padding-bottom:80px">
-    <div id="about">
-	<h1>Abrar Rahman Protyasha</h1>
-	<p>I am a senior undergraduate student studying Electrical and Computer Engineering at the <a href="https://rochester.edu">University of Rochester</a>.
-		I am broadly interested in robotics and autonomous systems. This interest ranges throughout the 'robotics' stack: from
-		motion planning and state estimation to manipulation and human-robot interaction. I have spent time as an Applications
-		Engineering Intern at <a href="https://www.silabs.com">Silicon Labs</a>, and as a Research Fellow at
-		the <a href="http://www2.ece.rochester.edu/projects/wcng/">Wireless Communication and Networking Group (WCNG)</a>.
-	<p></p>
-	<div style="justify-content:space-between;display: flex; padding: 0px 60px 0px 60px"><a href="mailto:aprotyas@u.rochester.edu">aprotyas@u.rochester.edu</a><a href="resources/resume.pdf">Resume</a><a href="https://github.com/aprotyas">Github</a><a href="https://www.linkedin.com/in/aprotyas/">LinkedIn</a></div>
-    </div>
-      </div>
-    </div>
-<div id="projects">
-<h4>Projects</h4>
-<table class="project_table" style="margin-left:auto;margin-right:auto;">
-<tr>
-  <td>
-  	<div class="project_item">
-	<h3><a href="projects/amr.html">Autonomous mobile robot software stack</a></h3>
-	<p>ROS packages (C++) for perception, occupancy grid mapping, path planning, localization,
-	   and path following controls to explore a partially known world using a TurtleBot2, in
-	   addition to a simulator and an OpenGL GUI for testing purposes.
-	</p>
-	<div class="bottom-align">
-	<a href="projects/amr.html"><img alt="Robotics software stack" src="resources/amr/amr-demo.png" class="image-proj"></a>
-	</div>
-	</div>
-  </td>
-  <td>
-  	<div class="project_item">
-	<h3><a href="projects/remote-vehicle.html">Remotely operated vehicle</a></h3>
-	<p>A wirelessly controlled vehicle with an on-board Raspberry Pi and PIC32 MCU, driving two
-	   DC gear-motors through a dual motor driver carrier using a PID feedback controller.
-	</p>
-	<br>
-	<div class="bottom-align">
-	<a href="projects/remote-vehicle.html"><img alt="Remote vehicle side profile" src="resources/remote-vehicle/remote-vehicle.png" class="image-proj"></a>
-	</div>
-	</div>
-  </td>
-</tr>
-<tr>
-  <td>
-  	<div class="project_item">
-	<h3><a href="projects/nn.html">Feedforward neural network</a></h3>
-	<p>Implemented a neural network architecture for binary classification on the HIGGS dataset.
-		The feedforward, backpropagation, and SGD mechanisms were implemented using NumPy.
-	</p>
-	<div class="bottom-align">
-	<a href="projects/nn.html"><img alt="Neural network concept" src="resources/neural-network/neural-network.png" class="image-nn"></a>
-	</div>
-	</div>
-  </td>
-  <td>
-  	<div class="project_item">
-	<h3><a href="projects/headphone.html">Two-stage, two-channel headphone amplifier</a></h3>
-	<p>A dual stage headphone amplifier with local feedback techniques, 3-dB full-power BW of 20Hz-15kHz (min), and THD+N
-	< 0.2% with 100mW output on nominal load at 1kHz. Amplifier only simulated using HSPICE due to COVID-19 lab restrictions.
-	</p>
-	<div class="bottom-align">
-	<a href="projects/headphone.html"><img alt="Headphone amplifier circuit schematic" src="resources/headphone/headphone.png" class="image-proj"></a>
-	</div>
-	</div>
-  </td>
-</tr>
-<tr>
-  <td>
-  	<div class="project_item">
-	<h3><a href="projects/encrypt.html">Encryption device</a></h3>
-	<p>A bitstream encrypting state-machine programmed on a DE0-CV board.
-	</p>
-	<br><br>
-	<div class="bottom-align">
-	<a href="projects/encrypt.html"><img alt="Encryption device schematic" src="resources/encryption-device/encryption-device.png" class="image-enc"></a>
-	</div>
-	</div>
-  </td>
-  <td>
-  	<div class="project_item">
-	<h3><a href="projects/reversi.html">Reversi</a></h3>
-	<p>A 2-player CLI implementation of the popular board game Reversi - written in
-		procedural C++98.
+  <body class="theme-base-0g">
 
-	</p>
-	<br>
-	<div class="bottom-align">
-	<a href="projects/reversi.html"><img alt="Reversi board state" src="resources/reversi/reversi.png" class="image-proj"></a>
-	</div>
-	</div>
-	</div>
-  </td>
-</tr>
-</table>
-</div>
-<br><br>
-    <div id="other">
-      <h2>Other</h2>
-      <p>If you're still here: my <i>real</i> passion is soccer, but my right ankle's raison d'être is to stay injured... sigh. Other than playing soccer, I also watch soccer (<a href="https://www.chelseafc.com/en">Chelsea FC</a>!), and play more <i>soccer</i> (<a href="https://www.ea.com/games/fifa">FIFA</a>!).</p>
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Abrar Rahman Protyasha
+        </a>
+      </h1>
+      <p class="lead">Robotics, everything tech, football</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item active" href="/">Home</a>
+      Blog: <a href="/blog/">Recent</a> / <a href="/blog/archive/">Archive</a>
+
       
-      <p>My best friend is a cat named Pico. Full disclosure, I play soccer with Pico, too.</p>
+
       
-      <p>Languages: Bengali (native), English (proficient), C (segfault)</p></div>
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+
+      <a class="sidebar-nav-item" href="/assets/resume.pdf">Resume</a>
+      <a class="sidebar-nav-item" href="https://github.com/aprotyas">Github</a>
+      <a class="sidebar-nav-item" href="https://linkedin.com/in/aprtoyuas">Linkedin</a>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved.</p>
   </div>
 </div>
 
-<button id="myBtn"><a href="#top" style="color: white">Back to top</a></button>
 
-</body>
+    <div class="content container">
+      I am a senior undergraduate student studying Electrical and Computer Engineering
+at the University of Rochester. I am broadly interested
+in robotics and autnomous systems, and I'm trying to contribute to robotics
+problems through the scientific process, software development, simulations, and
+testing!
+
+</br></br>
+
+I will eventually get around to making some memory jogger posts on
+<a href="blog/">blog</a>, but take your expectation and cut it in half...
+
+    </div>
+
+  </body>
 </html>

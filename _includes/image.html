@@ -1,0 +1,24 @@
+<head>
+<style>
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+  width: 70%;
+  height: 20%;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
+</head>
+
+<figure class="image">
+  <figcaption>{{ include.description }}</figcaption>
+  <img src="{{ include.url }}" alt="{{ include.description }}">
+</figure>

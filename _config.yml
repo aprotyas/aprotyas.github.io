@@ -1,3 +1,29 @@
-url: "https://aprotyas.github.io"
-plugins:
-  - jekyll-sitemap
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        /blog/:title/
+
+# Setup
+title:            Abrar Rahman Protyasha
+tagline:          "Ordinary cat person"
+description:      "Robotics, everything tech, football"
+url:              https://aprotyas.github.io
+baseurl:          /
+
+author:
+  name:           "Abrar Rahman Protyasha"
+  url:            https://aprotyas.github.io
+  github:         https://www.github.com/aprotyas
+  linkedin:       https://www.linkedin.com/in/aprotyas
+
+plugins: [jekyll-paginate, jekyll-gist, jekyll-sitemap]
+paginate:         5
+paginate_path: "/blog/page:num"
+
+# Separates the blurb content of a blog post from its body
+blurb_separator: "<!--blurb-->"
+
+github:
+  repo:           https://github.com/aprotyas/aprotyas.github.io
