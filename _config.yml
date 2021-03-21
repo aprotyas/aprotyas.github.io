@@ -86,7 +86,7 @@ author:
   location         : "Rochester, NY"
   employer         :
   pubmed           : # ""
-  googlescholar    : "https://scholar.google.com/citations?user=R7GuWF4AAAAJ&hl=en"
+  googlescholar    : #"https://scholar.google.com/citations?user=R7GuWF4AAAAJ&hl=en"
   email            : "aprotyas@u.rochester.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "aprotyas"
-  orcid            : "http://orcid.org/0000-0003-0771-0497"
+  orcid            : #"http://orcid.org/0000-0003-0771-0497"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
