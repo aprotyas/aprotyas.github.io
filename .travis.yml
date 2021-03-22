@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 gemfile: Gemfile
 script:
-  - bundle exec jekyll --source . --destination _site --config _config.yml
+  - bundle exec jekyll serve --source . --destination _site
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
