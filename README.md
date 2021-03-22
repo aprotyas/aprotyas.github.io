@@ -1,5 +1,7 @@
 # aprotyas.github.io
 
+[![Build Status](https://travis-ci.com/aprotyas/aprotyas.github.io.svg?branch=master)](https://travis-ci.com/aprotyas/aprotyas.github.io)
+
 Forked from [academicpages](https://academicpages.github.io/). Removed a bunch
 of stuff since I am not an academician.
 
