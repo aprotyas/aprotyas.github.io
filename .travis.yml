@@ -2,10 +2,11 @@ language: ruby
 cache: bundler
 gemfile: Gemfile
 script:
-  - bundle exec jekyll serve --source . --destination _site
+  - gem install bundler
+  - bundle exec jekyll build --trace
 branches:
   only:
     # Change this to gh-pages if you're deploying using the gh-pages branch
     - master
 rvm:
- - 3.0
+ - 3.0.0p0
