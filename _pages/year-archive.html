@@ -16,4 +16,6 @@ redirect_from:
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% include archive-single.html %}
+{% else %}
+    <p>No blog posts yet, but something might be cooking...</p>
 {% endfor %}
