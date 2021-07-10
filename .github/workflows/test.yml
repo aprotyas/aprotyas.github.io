@@ -1,4 +1,4 @@
-name: Test aprotyas.github.io
+name: Build aprotyas.github.io
 
 on: [push, pull_request]
 
