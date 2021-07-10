@@ -1,0 +1,17 @@
+name: Test aprotyas.github.io
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Build website
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run bundler
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          ruby-version: 3.x
+      - run: bundle exec rake
