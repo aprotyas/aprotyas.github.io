@@ -8,15 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I am a senior undergraduate student studying Electrical and Computer Engineering
-at the University of Rochester. I am broadly interested in robotics and
-autonomous systems. This interest ranges throughout the 'robotics' stack: from
-motion planning and state estimation to manipulation and human-robot interaction.
-I am currently a research assistant at the
-[Robotics and Artificial Intelligence Laboratory](http://www2.ece.rochester.edu/projects/rail/)
-(RAIL) at the University of Rochester, looking at the use of
-probabilistic graphical models to infer distributions of parametrized
-controllers for underactuated robots.
+Hi, my name is Abrar.
+
+I was born and raised in Dhaka, Bangladesh. I currently reside in Rochester, NY, USA.
+
+I am broadly interested in robotics and autonomous systems.
+This interest ranges throughout the 'robotics' stack: from motion planning and state estimation to manipulation and human-robot interaction.
+
+As an undergraduate student at the University of Rochester, I worked as a research assistant at the [Robotics and Artificial Intelligence Laboratory](http://www2.ece.rochester.edu/projects/rail/) (RAIL) - where I investigated the use of probabilistic graphical models to infer distributions of parametrized controllers for underactuated robots.
+
+Currently, I am a software engineering intern at [Open Robotics](https://www.openrobotics.org/).
+At Open Robotics, I've been working on general development of [Robotics Operating System](https://en.wikipedia.org/wiki/Robot_Operating_System) (ROS), which is an open source software framework enabling robotics applications, deployment, and research.
 
 [//]: # (Put a most-recent blog posts archive here, if you ever write one LOL)
 
