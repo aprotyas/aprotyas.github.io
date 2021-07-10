@@ -14,4 +14,4 @@ jobs:
         with:
           bundler-cache: true
           ruby-version: head
-      - run: bundle exec rake
+      - run: bundle exec jekyll build --trace
