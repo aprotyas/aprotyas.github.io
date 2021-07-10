@@ -1,6 +1,6 @@
 # aprotyas.github.io
 
-[![Build Status](https://travis-ci.com/aprotyas/aprotyas.github.io.svg?branch=master)](https://travis-ci.com/aprotyas/aprotyas.github.io)
+[![Build Status](https://github.com/aprotyas/aprotyas.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/aprotyas/aprotyas.github.io/actions/workflows/test.yml)
 
 Forked from [academicpages](https://academicpages.github.io/). Removed a bunch
 of stuff since I am not an academician.
