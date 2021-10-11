@@ -28,7 +28,7 @@ It goes without saying that "light mode" is simply the opposite of dark mode, mo
      alt="Light mode vs dark mode"
      style="width:400px;height:180px;"/>
 
-:exclamation: Unpopular opinion alert :exclamation: - Yet, light mode is better than dark mode.
+‼️ Unpopular opinion alert ‼️ - Yet, light mode is better than dark mode.
 No further questions taken.
 Having said that, the best solution here is to opt for an automatically enforced light/dark mode routine.
 Enjoy the colors you want to enjoy without giving up on your eyes!
