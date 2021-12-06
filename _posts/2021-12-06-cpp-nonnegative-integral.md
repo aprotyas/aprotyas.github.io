@@ -31,7 +31,7 @@ Would it be so hard to make `bar` an unsigned integer?
 void foo(int64_t bar);
 ~~~
 
-After many ways to rationalize this, I just swallowed the bitter pill and decided to materialize the non-negativity comment!
+After many failed attempts at rationalizing this, I just swallowed the bitter pill and decided to materialize the non-negativity comment!
 With that, we come to today's goal: **greedy non-negativity invariance enforcement for signed integral types**.
 
 ## Welcome type traits
