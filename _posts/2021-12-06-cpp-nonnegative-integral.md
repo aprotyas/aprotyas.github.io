@@ -1,7 +1,7 @@
 ---
 title: "C++: non-negative signed integral?"
-date: 2021-10-10
-permalink: /posts/2021/10/cpp-nonnegative-integral
+date: 2021-12-06
+permalink: /posts/2021/12/cpp-nonnegative-integral
 excerpt: "Type traits to the rescue!<br>"
 collection: posts
 tags:
