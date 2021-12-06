@@ -14,30 +14,34 @@ tags:
 {% include toc %}
 
 In this article, I'll summarize my first experience playing with type traits in C++.
+
 Note that as my first experience, I've decided not to dig too deep into cv-qualifications, being able to modify references of my wrapper, and all the sugar you'd get with a real wrapper.
+
 What I have done is write a skeleton of an observer that shows me enough about templates and type traits for it to be a meaningful exercise -- and I hope this simple example helps someone else grasp this concept too!
 
 ## Awkward interfaces
 
 Have you ever come across an interface that does a lazy job at constraining its inputs?
 Tell me, why does this API - with the comment, of course - exist?
+Would it be so hard to make `bar` an unsigned integer?
+*Actually, there are valid - but sparse - reasons to do so, but let me be dramatic.*
 
 ~~~ cpp
 /* argument must be non-zero */
 void foo(int64_t bar);
 ~~~
 
-After many ways to rationalize this, I just swallowed the better pill and decided to materialize the non-negativity comment!
+After many ways to rationalize this, I just swallowed the bitter pill and decided to materialize the non-negativity comment!
 With that, we come to today's goal: **greedy non-negativity invariance enforcement for signed integral types**.
 
 ## Welcome type traits
 
-Type traits is a ~fantastic rabbit-hole~ templated interface that lets you express ideas/constraints around types, and even modify the properties of types, all in compile time!
+Type traits is a ~~fantastic rabbit-hole~~ templated interface that lets you express ideas/constraints around types, and even modify the properties of types, all in compile time!
 These templates are defined in the [`<type_traits>`](https://en.cppreference.com/w/cpp/header/type_traits) header.
 
 A particularly useful metafunction in that header is [`std::enable_if`](https://en.cppreference.com/w/cpp/types/enable_if).
 Think of it as a compile-time switch for templates.
-This switch lets us tap into an idiomatic C++ rule - "Substitution Failure Is Not An Error"[(SFINAE)](http://en.wikipedia.org/wiki/Substitution_failure_is_not_an_error).
+This switch lets us tap into an idiomatic C++ rule - "Substitution Failure Is Not An Error" [(SFINAE)](http://en.wikipedia.org/wiki/Substitution_failure_is_not_an_error).
 Explaining SFINAE would take 5 of these blog posts, so the wiki redirection will have to do for now.
 `std::enable_if` lets us define a `typedef` to a given type if its template argument evaluates to a logically true value.
 In other words, if we specify constraints as part of `std::enable_if`'s template arguments, we will cause substitution failures (hence omitting a template instantiation) if said constraints are not satisfied. Now, about constraints...
@@ -47,10 +51,10 @@ For this situation, I want to represent two constraints:
 - The number must be of **integral** type.
   - Integral is a big net, but notable residents are `bool`, `char`, `charX_t`, `short`, `int`, `long`, and all of their signed and cv-qualified varieties... that's a mouthful.
   - Really, I just need to avoid floating point types here.
-  - [`std::is_integral`](https://en.cppreference.com/w/cpp/types/is_integral) is my new best friend for this.
+  - [`std::is_integral`](https://en.cppreference.com/w/cpp/types/is_integral) is my new best friend.
 - The number must be of **signed** type.
   - Why? Well, this also motivates why the interface accepted a signed integral type! Because unsigned integers give you zero information, maximum chaos. Imagine accidentally producing a negative number only to feed that into an unsigned container? No warnings, just overflow and vibes...
-  - [`std::is_signed`](https://en.cppreference.com/w/cpp/types/is_signed) is my best friend for this.
+  - [`std::is_signed`](https://en.cppreference.com/w/cpp/types/is_signed) is my other best friend.
 
 Just like that, we have our building blocks to conditionally (`std::enable_if`) build a wrapper around signed (`std::is_signed`), integral (`std::is_integral`) types.
 In C++, the template argument that represents these constraints is:
@@ -58,7 +62,9 @@ In C++, the template argument that represents these constraints is:
 ~~~cpp
 template<
   class T,
-  typename = std::enable_if<std::is_integral<T>::value && std::is_signed<T>::value>::type
+  typename = std::enable_if<
+    std::is_integral<T>::value &&
+    std::is_signed<T>::value>::type
 >
 ~~~
 
@@ -75,7 +81,9 @@ Rewriting with these aliases, we get:
 ~~~cpp
 template<
   class T,
-  typename = std::enable_if_t<std::is_integral_v<T> && std::is_signed_v<T>>
+  typename = std::enable_if_t<
+    std::is_integral_v<T> &&
+    std::is_signed_v<T>>
 >
 ~~~
 
@@ -94,7 +102,8 @@ public:
   non_negative(T _number) {
     // Negative number check!
     if (_number < static_cast<T>(0)) {
-      throw std::runtime_error("Please enter non-negative number.");
+      throw std::runtime_error(
+        "Please enter non-negative number.");
     }
     number = _number;
   }
@@ -121,7 +130,9 @@ Combining all the snippets above, this is the wrapper I have:
 ~~~cpp
 template<
   class T,
-  typename = std::enable_if_t<std::is_integral_v<T> && std::is_signed_v<T>>
+  typename = std::enable_if_t<
+    std::is_integral_v<T> &&
+    std::is_signed_v<T>>
 >
 class non_negative {
 public:
@@ -131,7 +142,8 @@ public:
   non_negative(T _number) {
     if (_number < static_cast<T>(0)) {
       // Negative number check!
-      throw std::runtime_error("Please enter non-negative number.");
+      throw std::runtime_error(
+        "Please enter non-negative number.");
     }
     number = _number;
   }
