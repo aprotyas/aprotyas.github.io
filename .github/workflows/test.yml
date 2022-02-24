@@ -1,6 +1,12 @@
 name: Build aprotyas.github.io
 
-on: [push, pull_request]
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   build:
@@ -9,9 +15,4 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Run bundler
-        uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
-          ruby-version: head
-      - run: bundle exec jekyll build --trace
+      - uses: actions/jekyll-build-pages@v1
