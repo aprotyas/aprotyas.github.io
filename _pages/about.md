@@ -21,6 +21,9 @@ In summer 2021, I was a software engineering intern at [Open Robotics](https://w
 At Open Robotics, I've been working on general development of [Robotics Operating System](https://en.wikipedia.org/wiki/Robot_Operating_System) (ROS), which is an open source software framework enabling robotics applications, deployment, and research.
 I still contribute to general ROS 2 development - it's a great community to work with!
 
+Currently, I am a software engineer at [Argo AI](https://www.argo.ai/), working on autonomy developer tools.
+This is the most fun I've had in years. :-)
+
 [//]: # (Put a most-recent blog posts archive here, if you ever write one LOL)
 
 ## Blog?
