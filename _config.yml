@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Abrar Rahman Protyasha"
 title_separator          : "-"
 name                     : &name "Abrar Rahman Protyasha"
-description              : &description "into robotics"
+description              : &description "Ordinary cat person"
 url                      : https://aprotyas.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aprotyas/aprotyas.github.io"
@@ -99,11 +99,11 @@ author:
   name             : "Abrar Rahman Protyasha"
   avatar           : "profile.jpg"
   bio              : "Average cat person"
-  location         : "Rochester, NY"
-  employer         :
+  location         : "Pittsburgh, PA"
+  employer         : "Argo AI"
   pubmed           : # ""
   googlescholar    : #"https://scholar.google.com/citations?user=R7GuWF4AAAAJ&hl=en"
-  email            : "aprotyas@u.rochester.edu"
+  email            : "abrar.rahman98@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
