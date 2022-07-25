@@ -10,19 +10,13 @@ redirect_from:
 
 Hi, my name is Abrar.
 
-I was born and raised in Dhaka, Bangladesh. I currently reside in Rochester, NY, USA.
+I was born and raised in Dhaka, Bangladesh. I currently reside in Pittsburgh, PA, USA, working on autonomy developer tools at [Argo AI](https://www.argo.ai).
 
-I am broadly interested in robotics and autonomous systems.
-This interest ranges throughout the 'robotics' stack: from motion planning and state estimation to manipulation and human-robot interaction.
+I made this website to capture some thoughts and make myself look smart™, neither of which have gone to plan.
 
-As an undergraduate student at the University of Rochester, I worked as a research assistant at the [Robotics and Artificial Intelligence Laboratory](http://www2.ece.rochester.edu/projects/rail/) (RAIL) - where I investigated the use of probabilistic graphical models to infer distributions of parametrized controllers for underactuated robots.
+In a previous life, I studied at the University of Rochester and investigated motion planning for underactuated robots.
 
-In summer 2021, I was a software engineering intern at [Open Robotics](https://www.openrobotics.org/).
-At Open Robotics, I've been working on general development of [Robotics Operating System](https://en.wikipedia.org/wiki/Robot_Operating_System) (ROS), which is an open source software framework enabling robotics applications, deployment, and research.
-I still contribute to general ROS 2 development - it's a great community to work with!
-
-Currently, I am a software engineer at [Argo AI](https://www.argo.ai/), working on autonomy developer tools.
-This is the most fun I've had in years. :-)
+When away from the computer, I enjoy petting cats, playing football, and exploring food. Send me food recs and I'll send you a cat pic in return.
 
 [//]: # (Put a most-recent blog posts archive here, if you ever write one LOL)
 
