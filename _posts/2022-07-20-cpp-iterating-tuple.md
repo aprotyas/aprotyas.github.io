@@ -140,6 +140,10 @@ The following snippet should be simple enough to follow along now!
 Here, I will define a `for_each` function that accepts any callable object and invokes said object with every element of a tuple.
 
 ~~~ cpp
+#include <iostream>
+#include <tuple>
+#include <utility>
+
 template<typename ...TupleTypes, typename Callable>
 void for_each(const std::tuple<TupleTypes...>& tuple, Callable func)
 {
