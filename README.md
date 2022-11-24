@@ -7,6 +7,8 @@ of stuff since I am not an academician.
 
 ## Note to myself
 
+Local website serving instructions: `bundle exec jekyll liveserve`
+
 If you ever publish papers/give talks, check out the original template for
 a publication/talks markdown generator. Also, uncomment the publications/talks
 collection tags in `_config.yml` and revive the appropriate files in the
