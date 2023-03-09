@@ -10,11 +10,9 @@ redirect_from:
 
 Hi, my name is Abrar.
 
-I was born and raised in Dhaka, Bangladesh. I currently reside in Pittsburgh, PA, USA, working on autonomy developer tools at [Argo AI](https://www.argo.ai).
+I was born and raised in Dhaka, Bangladesh. I currently reside in the Bay Area, CA working on [WebKit](http://webkit.org) platform experience at Apple.
 
-I made this website to capture some thoughts and make myself look smart™, neither of which have gone to plan.
-
-In a previous life, I studied at the University of Rochester and investigated motion planning for underactuated robots.
+In a previous life, I used to write developer tools for roboticists at [Argo AI](https://en.wikipedia.org/wiki/Argo_AI). Before that, I studied at the University of Rochester and investigated motion planning for underactuated robots
 
 When away from the computer, I enjoy petting cats, playing football, and exploring food. Send me food recs and I'll send you a cat pic in return.
 
