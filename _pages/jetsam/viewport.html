@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=900, initial-scale=2" />
+<script type="text/javascript">
+  function test() {
+    var WINDOW = window;
+    var D = document;
+    var t = "Values presented as width:height <br /><br /> UserAgent> " + WINDOW.navigator.userAgent + "<br /><br />InitialScale> " + visualViewport.scale + "<br /><br />REPORTED> " + D.body.parentNode.clientWidth + ":" + D.body.parentNode.clientHeight + "<br /> INNER> " + WINDOW.innerWidth + ":" + WINDOW.innerHeight + "<br /><br /> PHYSIC> " + WINDOW.screen.width + ":" + WINDOW.screen.height;
+    D.body.innerHTML = t;
+  };
+</script>
+</head>
+<body onload="test();" width="100%" height="100%" marginheight="0" marginwidth="0" spacing="0" style="width:100%;height:100%;position:absolute;top:0px;left:0px;overflow:hidden;"></body>
+</html>
