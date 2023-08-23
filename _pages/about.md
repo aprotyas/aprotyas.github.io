@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, my name is Abrar.
+Hi, my name is Abrar. `aprotyas` is my online identity.
 
 I was born and raised in Dhaka, Bangladesh. I currently reside in the Bay Area, CA working on [WebKit](http://webkit.org) platform experience at Apple.
 
