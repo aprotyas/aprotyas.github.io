@@ -190,10 +190,10 @@ kramdown:
 
 
 # Collections
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+#collections:
+#  portfolio:
+#    output: true
+#    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -217,16 +217,16 @@ defaults:
       layout: single
       author_profile: true
   # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      show_date: false
-      share: true
-      comment: true
+  #- scope:
+  #    path: ""
+  #    type: portfolio
+  #  values:
+  #    layout: single
+  #    author_profile: true
+  #    read_time: false
+  #    show_date: false
+  #    share: true
+  #    comment: true
 
 # Sass/SCSS
 sass:
