@@ -10,7 +10,7 @@ redirect_from:
 
 Hi, my name is Abrar. `aprotyas` is my online identity.
 
-I was born and raised in Dhaka, Bangladesh. I currently reside in the Bay Area, CA working on [WebKit](http://webkit.org) platform experience at Apple.
+I was born and raised in Dhaka, Bangladesh. I currently reside in the Bay Area, CA working on the [WebKit](http://webkit.org) browser engine at Apple.
 
 In a previous life, I used to write developer tools for roboticists at [Argo AI](https://en.wikipedia.org/wiki/Argo_AI). Before that, I studied at the University of Rochester and investigated motion planning for underactuated robots
 
